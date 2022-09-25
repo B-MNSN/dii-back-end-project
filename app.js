@@ -7,7 +7,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(morgan('tiny'));
 app.use('/flights', flightsRoutes);
-app.use('/books', flightsRoutes);
+//app.use('/books', flightsRoutes);
 
 
 app.listen(8000, () => {
