@@ -17,6 +17,7 @@ app.listen(8000, () => {
 
 // GET /flights     => [{ id: 1, destinationAirline: 'Thai', departureDate: '2022-09-24T08:00:00Z', destination: 'BKK' }]
 // /flights?destination=BKK
+
 // POST /flights
 // PUT /flights/:id
 // DELETE /flights/:id

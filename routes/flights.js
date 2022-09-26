@@ -6,7 +6,7 @@ const data = require('../ForDatas/Flights.json');
 //     res.json(data);
 // });
 
-router.use('/', (req, res) => {
+router.get('/', (req, res) => {
     const filters = req.query;
     const filteredFlights = data.filter(flight => {
         let isValid = true;

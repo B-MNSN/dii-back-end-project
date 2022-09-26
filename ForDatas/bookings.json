@@ -1,0 +1,54 @@
+[
+    {
+        "id": 1,
+        "UID": "U0001",
+        "dapart": {
+            "id": 3,
+            "PNR": "CBAEFD",
+            "dapartDay": "01/04/2023",
+            "class": "first-class",
+            "imgURLlogo": "airasia",
+            "departTime": "09:15",
+            "landTime": "10:30",
+            "departLocate": "เชียงใหม่",
+            "landLocate": "กรุงเทพมหานคร",
+            "duration": "1h 15m",
+            "price": 3000
+        },
+        "return": {
+            "id": 1,
+            "PNR": "ABCDEF",
+            "dapartDay": "09/09/2023",
+            "class": "first-class",
+            "imgURLlogo": "airasia",
+            "departTime": "06:15",
+            "landTime": "07:30",
+            "departLocate": "กรุงเทพมหานคร",
+            "landLocate": "เชียงใหม่",
+            "duration": "1h 15m",
+            "price": 1000
+        },
+        "totalPrice": 12000,
+        "traveler": 3
+    },
+    {
+        "id": 2,
+        "UID": "U0002",
+        "dapart": {
+            "id": 3,
+            "PNR": "CBAEFD",
+            "dapartDay": "01/04/2023",
+            "class": "first-class",
+            "imgURLlogo": "airasia",
+            "departTime": "09:15",
+            "landTime": "10:30",
+            "departLocate": "เชียงใหม่",
+            "landLocate": "กรุงเทพมหานคร",
+            "duration": "1h 15m",
+            "price": 3000
+        },
+        "return": {},
+        "totalPrice": 3000,
+        "traveler": 1
+    }
+]
