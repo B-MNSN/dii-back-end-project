@@ -1,13 +1,18 @@
 const express = require('express');
 const router = express.Router();
-const { data } = require('../ForDatas/bookings.json');
+const data = require('../ForDatas/bookings.json');
 let currentProductId;
 router.get('/', (req, res) => {
-    res.json(data);
-});
-router.get('/', (req, res) => {
-    const filteredProds = data.filter(product => product.name.startsWith(req.query.name))
-    res.json(filteredProds)
+    const filters = req.query;
+    const filteredFlights = data.filter(flight => {
+        let isValid = true;
+        for (key in filters) {
+            // console.log(key, flight[key], filters[key]);
+            isValid = isValid && flight[key] == filters[key];
+        }
+        return isValid;
+    });
+    res.json(filteredFlights);
 });
 
 router.get('/:id', (req, res) => {
