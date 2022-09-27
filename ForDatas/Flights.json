@@ -1,41 +1,41 @@
 [
     {
-        "id":1,
+        "id": 1,
         "PNR": "ABCDEF",
         "dapartDay": "09/09/2023",
-        "class":"first-class",
-        "imgURLlogo":"airasia",
-        "departTime":"06:15",
-        "landTime":"07:30",
-        "departLocate":"กรุงเทพมหานคร",
-        "landLocate":"เชียงใหม่",
-        "duration":"1h 15m",
-        "price":1000
+        "class": "first-class",
+        "imgURLlogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/AirAsia_New_Logo.svg/300px-AirAsia_New_Logo.svg.png",
+        "departTime": "06:15",
+        "landTime": "07:30",
+        "departLocate": "กรุงเทพมหานคร",
+        "landLocate": "เชียงใหม่",
+        "duration": "1h 15m",
+        "price": 1000
     },
     {
-        "id":2,
+        "id": 2,
         "PNR": "FEDCBA",
         "dapartDay": "30/12/2023",
-        "class":"first-class",
-        "imgURLlogo":"airasia",
-        "departTime":"07:15",
-        "landTime":"08:30",
-        "departLocate":"เชียงใหม่",
-        "landLocate":"กรุงเทพมหานคร",
-        "duration":"1h 15m",
-        "price":2000
+        "class": "first-class",
+        "imgURLlogo": "https://e7.pngegg.com/pngimages/623/872/png-clipart-thai-airways-international.png",
+        "departTime": "07:15",
+        "landTime": "08:30",
+        "departLocate": "เชียงใหม่",
+        "landLocate": "กรุงเทพมหานคร",
+        "duration": "1h 15m",
+        "price": 2000
     },
     {
-        "id":3,
+        "id": 3,
         "PNR": "CBAEFD",
         "dapartDay": "01/04/2023",
-        "class":"first-class",
-        "imgURLlogo":"airasia",
-        "departTime":"09:15",
-        "landTime":"10:30",
-        "departLocate":"เชียงใหม่",
-        "landLocate":"กรุงเทพมหานคร",
-        "duration":"1h 15m",
-        "price":3000
+        "class": "first-class",
+        "imgURLlogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/AirAsia_New_Logo.svg/300px-AirAsia_New_Logo.svg.png",
+        "departTime": "09:15",
+        "landTime": "10:30",
+        "departLocate": "เชียงใหม่",
+        "landLocate": "กรุงเทพมหานคร",
+        "duration": "1h 15m",
+        "price": 3000
     }
 ]

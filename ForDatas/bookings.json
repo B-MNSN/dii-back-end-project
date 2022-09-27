@@ -2,11 +2,11 @@
     {
         "id": 1,
         "UID": "U0001",
-        "dapart": {
+        "depart": {
             "id": 3,
             "PNR": "CBAEFD",
-            "dapartDay": "01/04/2023",
-            "class": "first-class",
+            "departDay": "01/04/2023",
+            "planeClass": "first-class",
             "imgURLlogo": "airasia",
             "departTime": "09:15",
             "landTime": "10:30",
@@ -18,8 +18,8 @@
         "return": {
             "id": 1,
             "PNR": "ABCDEF",
-            "dapartDay": "09/09/2023",
-            "class": "first-class",
+            "departDay": "09/09/2023",
+            "planeClass": "first-class",
             "imgURLlogo": "airasia",
             "departTime": "06:15",
             "landTime": "07:30",
@@ -34,11 +34,11 @@
     {
         "id": 2,
         "UID": "U0002",
-        "dapart": {
+        "depart": {
             "id": 3,
             "PNR": "CBAEFD",
-            "dapartDay": "01/04/2023",
-            "class": "first-class",
+            "departDay": "01/04/2023",
+            "planeClass": "first-class",
             "imgURLlogo": "airasia",
             "departTime": "09:15",
             "landTime": "10:30",
