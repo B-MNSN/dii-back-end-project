@@ -55,11 +55,12 @@
             "departLocate": "เชียงใหม่",
             "departCode": "CNX",
             "landLocate": "กรุงเทพมหานคร",
+            "landCode": "BKK",
             "duration": "1h 15m",
             "price": 2000
         },
         "return": {},
-        "totalPrice": 3000,
+        "totalPrice": 2000,
         "traveler": 1
     }
 ]
