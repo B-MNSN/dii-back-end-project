@@ -2,8 +2,8 @@
     {
         "id": 1,
         "PNR": "ABCDEF",
-        "dapartDay": "09/09/2023",
-        "class": "first-class",
+        "departDay": "09/09/2023",
+        "planeClass": "first-class",
         "flightName": "Airasia",
         "flightCode": "AS100",
         "imgURLlogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/AirAsia_New_Logo.svg/300px-AirAsia_New_Logo.svg.png",
@@ -19,8 +19,8 @@
     {
         "id": 2,
         "PNR": "FEDCBA",
-        "dapartDay": "30/12/2023",
-        "class": "first-class",
+        "departDay": "30/12/2023",
+        "planeClass": "first-class",
         "flightName": "Airasia",
         "flightCode": "AS101",
         "imgURLlogo": "https://e7.pngegg.com/pngimages/623/872/png-clipart-thai-airways-international.png",
@@ -35,8 +35,8 @@
     {
         "id": 3,
         "PNR": "CBAEFD",
-        "dapartDay": "01/04/2023",
-        "class": "first-class",
+        "departDay": "01/04/2023",
+        "planeClass": "first-class",
         "flightName": "Airasia",
         "flightCode": "AS102",
         "imgURLlogo": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/AirAsia_New_Logo.svg/300px-AirAsia_New_Logo.svg.png",
