@@ -3,6 +3,7 @@ const app = express();
 const flightsRoutes = require('./routes/flights');
 const booksRoutes = require('./routes/books');
 const airportsRouts = require('./routes/airports')
+const userRoutes = require('./routes/user');
 const morgan = require('morgan');
 
 app.use(express.json());
@@ -16,6 +17,7 @@ app.use(function (req, res, next) {
 app.use('/flights', flightsRoutes);
 app.use('/books', booksRoutes);
 app.use('/airports', airportsRouts);
+app.use('/user', userRoutes);
 
 app.listen(8000, () => {
     console.log('Listening on port 8000');
