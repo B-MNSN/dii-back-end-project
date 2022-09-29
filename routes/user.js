@@ -7,8 +7,8 @@ router.get('/', (req, res) => {
 });
   
 router.get('/:id', (req, res) => {
-    const userId = Number.parseInt(req.params.id);
-    const user = data.find((user) => user.id === userId);
+    const id = Number.parseInt(req.params.id);
+    const user = data.find((user) => user.id === id);
     res.json(user);
 });
   
@@ -26,10 +26,10 @@ router.post('/', (req, res) => {
     res.json(user);
 });
   
-router.put('/:id', (req, res) => {
+router.put('/', (req, res) => {
     const {fname, lname, phoneNumber, email } = req.body;
     const userId = Number.parseInt(req.params.id);
-    const user = data.find((user) => user.id === userId);
+    const user = data.find((data) => data.id === userId);
   
     user.fname = fname;
     user.lname = lname;
@@ -39,11 +39,11 @@ router.put('/:id', (req, res) => {
     res.json(user);
 });
   
-router.delete('/:id', (req, res) => {
-    const userId = Number.parseInt(req.params.id);
-    const userIndex = data.findIndex((user) => user.id === userId);
-    data.splice(productIndex, 1);
-    res.sendStatus(204);
-});
+// router.delete('/:id', (req, res) => {
+//     const userId = Number.parseInt(req.params.id);
+//     const userIndex = data.findIndex((user) => user.id === userId);
+//     data.splice(userIndex, 1);
+//     res.sendStatus(204);
+// });
   
 module.exports = router;
