@@ -6,6 +6,6 @@
         "lname": "สดใส",
         "phoneNumber": "123456789",
         "email": "sky@gmail.com",
-        "FlightID": 1
+        "flightID": "1"
     }
 ]
