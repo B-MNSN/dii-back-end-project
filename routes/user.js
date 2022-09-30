@@ -43,11 +43,11 @@ router.put('/', (req, res) => {
     res.json(user);
 });
 
-// router.delete('/:id', (req, res) => {
-//     const userId = Number.parseInt(req.params.id);
-//     const userIndex = data.findIndex((user) => user.id === userId);
-//     data.splice(userIndex, 1);
-//     res.sendStatus(204);
-// });
+router.delete('/:id', (req, res) => {
+    const userId = Number.parseInt(req.params.id);
+    const userIndex = data.findIndex((user) => user.id === userId);
+    data.splice(userIndex, 1);
+    res.sendStatus(204);
+});
 
 module.exports = router;
