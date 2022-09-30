@@ -14,9 +14,10 @@ router.get('/:id', (req, res) => {
   
 let currentUserId = 1;
 router.post('/', (req, res) => {
-    const { fname, lname, phoneNumber, email } = req.body;
+    const { prefix, fname, lname, phoneNumber, email } = req.body;
     const user = {
       id: ++currentUserId,
+      prefix,
       fname, 
       lname, 
       phoneNumber, 
@@ -27,10 +28,11 @@ router.post('/', (req, res) => {
 });
   
 router.put('/', (req, res) => {
-    const {fname, lname, phoneNumber, email } = req.body;
+    const {prefix, fname, lname, phoneNumber, email } = req.body;
     const userId = Number.parseInt(req.params.id);
     const user = data.find((data) => data.id === userId);
   
+    user.prefix = prefix;
     user.fname = fname;
     user.lname = lname;
     user.phoneNumber = phoneNumber;
