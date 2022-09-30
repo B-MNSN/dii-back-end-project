@@ -1,22 +1,30 @@
 const express = require('express');
-const app = express();
+
+const morgan = require('morgan');
+var cors = require('cors');
+
 const flightsRoutes = require('./routes/flights');
+const app = express();
+
 const booksRoutes = require('./routes/books');
 const airportsRouts = require('./routes/airports')
 const userRoutes = require('./routes/user');
-var cors = require('cors')
-const morgan = require('morgan');
+
 
 
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
-app.use(cors());
+app.use(cors())
 app.use(morgan('tiny'));
 // app.use(function (req, res, next) {
 //     res.header("Access-Control-Allow-Origin", "*");
 //     res.header("Access-Control-Allow-Headers", "X-Requested-With");
 //     next();
 // });
+var corsOptions = {
+    origin: 'http://localhost:3000/',
+    optionsSuccessStatus: 200 // some legacy browsers (IE11, various SmartTVs) choke on 204
+}
 
 app.use('/flights', flightsRoutes);
 app.use('/books', booksRoutes);
