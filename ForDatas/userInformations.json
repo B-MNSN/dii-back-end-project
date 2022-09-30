@@ -1,9 +1,10 @@
 [
     {
         "id": 1,
-        "fname": "Manutsanan",
-        "lname": "Khanthong",
+        "prefix":"นางสาว",
+        "fname": "ท้องฟ้า",
+        "lname": "สดใส",
         "phoneNumber": "123456789",
-        "email": "manutsanan@gmail.com"
+        "email": "sky@gmail.com"
     }
 ]
