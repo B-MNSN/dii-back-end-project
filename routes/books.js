@@ -4,6 +4,7 @@ const data = require('../ForDatas/bookings.json');
 let currentProductId;
 router.get('/', (req, res) => {
     const filters = req.query;
+
     const filteredFlights = data.filter(flight => {
         let isValid = true;
         for (key in filters) {
@@ -12,7 +13,10 @@ router.get('/', (req, res) => {
         }
         return isValid;
     });
+
     res.json(filteredFlights);
+
+
 });
 
 router.get('/:UID', (req, res) => {

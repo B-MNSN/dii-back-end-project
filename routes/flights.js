@@ -11,11 +11,15 @@ router.get('/', (req, res) => {
     const filteredFlights = data.filter(flight => {
         let isValid = true;
         for (key in filters) {
-            // console.log(key, flight[key], filters[key]);
-            isValid = isValid && flight[key] == filters[key];
+            console.log(key);
+            if (key != "traveler") {
+                isValid = isValid && flight[key] == filters[key];
+            }
+
         }
         return isValid;
     });
+
     res.json(filteredFlights);
 });
 
