@@ -7,9 +7,9 @@ const flightsRoutes = require('./routes/flights');
 const app = express();
 
 const booksRoutes = require('./routes/books');
-const airportsRouts = require('./routes/airports')
+const airportsRouts = require('./routes/airports');
 const userRoutes = require('./routes/user');
-
+const userLoginRoutes = require('./routes/login');
 
 
 app.use(express.json());
@@ -30,6 +30,7 @@ app.use('/flights', flightsRoutes);
 app.use('/books', booksRoutes);
 app.use('/airports', airportsRouts);
 app.use('/user', userRoutes);
+app.use('/userLogin', userLoginRoutes);
 
 
 
